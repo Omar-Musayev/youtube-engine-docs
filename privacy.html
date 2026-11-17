@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy</title>
+<style>
+body { font: 1rem/1.65 system-ui, sans-serif; color: #19242b; background: #f7f8f5; margin: 0; }
+header, main { max-width: 43rem; margin: auto; padding: 1rem 1.5rem; }
+header { border-bottom: 1px solid #b7c8bf; }
+nav { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; }
+h1, h2 { line-height: 1.2; }
+h1 { margin-top: 1.5rem; font-size: clamp(2rem, 6vw, 3.25rem); }
+h2 { margin-top: 1.75rem; }
+a { color: #145748; }
+</style>
+</head>
+<body>
+<header><nav aria-label="Main navigation"><a href="index.html">Home</a><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms of service</a></nav></header>
+<main><h1>Privacy policy</h1>
+<p>This policy covers the YouTube Engine desktop application and its public documentation site.</p>
+<h2>Data and permissions</h2>
+<p>The application uses Google OAuth to access the channel selected by its operator. It checks the channel identifier and retrieves video identifiers, status and metadata, and YouTube Analytics and Reporting data such as views, watch time, impressions, and click-through rates when available. An optional authorization for monetary analytics is available in the desktop tool and is off by default.</p>
+<p>When an operator explicitly runs an approved publishing operation, the application sends the video file and its metadata to YouTube. It uses YouTube API data to verify the channel, reconcile upload and publishing status, and review performance. The app uses Google user data for these functions and does not sell it or use it for advertising.</p>
+<h2>Storage and disclosure</h2>
+<p>OAuth credentials are stored in access-restricted local files. API results, upload state, and reports may be stored locally in databases or files. Local backups of workflow data can contain API results. The documentation site does not receive OAuth credentials or channel data. The site has no sign-in, analytics scripts, or forms. GitHub Pages may log visitor IP addresses for security as described in the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p>
+<h2>Revoking access and removing data</h2>
+<p>To stop access, stop the desktop application and remove its access in <a href="https://security.google.com/settings/security/permissions">Google Account security settings</a>. The current desktop version does not automatically remove previously stored reports after revocation. The operator can delete the app’s local credentials, reports, databases, and relevant backups from their own device. Removing local copies does not remove videos or data stored by YouTube.</p>
+<p>Google’s handling of data is described in <a href="https://policies.google.com/privacy">Google’s Privacy Policy</a>. For assistance with the app or deletion of locally stored data, use the support contact listed on the Google OAuth consent screen.</p>
+</main>
+</body>
+</html>
